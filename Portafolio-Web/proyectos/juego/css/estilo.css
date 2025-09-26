@@ -1,0 +1,6 @@
+body{font-family:Arial;background:#f3f3f3;margin:0;padding:20px;display:flex;justify-content:center;align-items:center;height:100vh}
+.wrap{background:#fff;padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,.08);text-align:center;width:360px}
+.btns{display:flex;gap:8px;justify-content:center;margin:14px 0}
+button{padding:10px 14px;border-radius:8px;border:none;background:#d4af37;color:#111;cursor:pointer}
+#result{margin-top:10px;font-size:18px}
+#score{margin-top:8px;font-weight:700}
