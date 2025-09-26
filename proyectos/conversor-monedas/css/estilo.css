@@ -1,0 +1,5 @@
+body{font-family:Arial;background:#f3f3f3;margin:0;height:100vh;display:flex;align-items:center;justify-content:center}
+.box{background:#fff;padding:20px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,.08);width:320px;text-align:center}
+input,select,button{width:80%;padding:8px;margin:8px;border-radius:6px;border:1px solid #ddd}
+button{background:#333;color:#fff;border:none;cursor:pointer}
+#res{margin-top:10px;font-weight:700}

@@ -1,0 +1,15 @@
+body{
+	font-family:Arial;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;background:#f7f7f7
+}
+.wrap{
+	background:#fff;padding:24px;border-radius:12px;box-shadow:0 6px 18px rgba(0,0,0,.06);text-align:center;width:260px
+}
+#contador{
+	font-size:48px;margin:10px 0;color:#222
+}
+.btns{
+	display:flex;gap:8px;justify-content:center
+}
+button{
+	padding:8px 12px;border-radius:8px;border:none;background:#333;color:#fff;cursor:pointer
+}
