@@ -1,15 +1,35 @@
 <!DOCTYPE html>
 <html lang="es">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Conversor</title><link rel="stylesheet" href="css/estilo.css"></head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conversor de Monedas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 <body>
-<div class="box">
-  <h1>Conversor de Monedas</h1>
-  <input id="amount" type="number" placeholder="Cantidad" min="0" step="any">
-  <select id="from"><option>USD</option><option>EUR</option><option>CUP</option><option>MXN</option></select>
-  <select id="to"><option>EUR</option><option>USD</option><option>CUP</option><option>MXN</option></select>
-  <button id="go">Convertir</button>
-  <div id="res">Resultado: -</div>
-</div>
-<script src="js/script.js"></script>
+  <div class="container">
+    <h1>Conversor de Monedas</h1>
+
+    <input type="number" id="amount" placeholder="Cantidad">
+
+    <select id="from">
+      <option value="USD">USD</option>
+      <option value="EUR">EUR</option>
+      <option value="CUP">CUP</option>
+      <option value="MXN">MXN</option>
+    </select>
+
+    <select id="to">
+      <option value="EUR">EUR</option>
+      <option value="USD">USD</option>
+      <option value="CUP">CUP</option>
+      <option value="MXN">MXN</option>
+    </select>
+
+    <button id="go">Convertir</button>
+    <h2 id="res">Resultado: -</h2>
+  </div>
+  <script src="script.js"></script>
 </body>
 </html>
+
