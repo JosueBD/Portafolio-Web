@@ -1,7 +1,0 @@
-body{font-family:Arial;background:#f7f3ee;margin:0;padding:20px}
-.wrap{max-width:720px;margin:auto;display:grid;grid-template-columns:1fr 1fr;gap:20px}
-section{background:#fff;padding:16px;border-radius:10px;box-shadow:0 6px 18px rgba(0,0,0,.06);text-align:center}
-.display{font-size:28px;font-weight:700;margin:12px 0}
-.controls{display:flex;gap:8px;justify-content:center}
-button{padding:8px 12px;border-radius:8px;border:none;background:#333;color:#fff;cursor:pointer}
-input{padding:6px;border-radius:6px;border:1px solid #ccc;width:100px;margin:4px}
