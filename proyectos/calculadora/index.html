@@ -1,26 +1,39 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Calculadora</title>
-<link rel="stylesheet" href="css/estilo.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Profesional</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-<div class="calc">
-  <input id="display" disabled>
-  <div class="keys">
-    <button data-action="clear">C</button>
-    <button data-action="back">←</button>
-    <button data-action="percent">%</button>
-    <button data-action="/">÷</button>
+    <div class="calculator">
+        <h1>Calculadora Profesional</h1>
+        <input type="text" id="display" disabled placeholder="0">
 
-    <button>7</button><button>8</button><button>9</button><button data-action="*">×</button>
-    <button>4</button><button>5</button><button>6</button><button data-action="-">−</button>
-    <button>1</button><button>2</button><button>3</button><button data-action="+">+</button>
-    <button>0</button><button>.</button><button data-action="sqrt">√</button><button data-action="=">=</button>
-  </div>
-</div>
-<script src="js/script.js"></script>
+        <div class="buttons">
+            <button class="num">7</button>
+            <button class="num">8</button>
+            <button class="num">9</button>
+            <button class="op">/</button>
+
+            <button class="num">4</button>
+            <button class="num">5</button>
+            <button class="num">6</button>
+            <button class="op">*</button>
+
+            <button class="num">1</button>
+            <button class="num">2</button>
+            <button class="num">3</button>
+            <button class="op">-</button>
+
+            <button class="num">0</button>
+            <button id="clear">C</button>
+            <button id="equals">=</button>
+            <button class="op">+</button>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
